@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide");
+body{
+    background-color: rgb(19, 197, 43);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 60px;
+    background-color: black;
+    color: white;
+    font-size: large;
+}
+nav ul li {
+    padding: 0 12px;
+}
+.brand svg{
+    width: 150px;
+    height: 60px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+.container{
+    min-height: 65vh;
+    background-color: black;
+    font-family: "Audiowide", sans-serif;
+    color: white;
+    display: flex;
+    width: 75%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url("back.jpg");
+    background-size: 1100px 500px;
+    background-repeat: no-repeat;
+    flex-direction: column;
+
+}
+.bottom{
+    position: sticky;
+    height: 70px;
+    background-color: black;
+    color: white;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 14px;
+
+}
+.icons i{
+    cursor: pointer;
+    padding: 0 12px;
+}
+#bar{
+    width: 80vw;
+
+}
+.songitem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 50%;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;
+}
+.songitem img{
+    width: 100px;
+    margin: 0 23px;
+    height: 50px;
+}
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+cursor: pointer;
+}
+
+.songitemcontainer{
+    margin-top: 70px;
+}
+.songinfo{
+    position: absolute;
+    left: 10vw;
+}
+#bar{
+    cursor: pointer;
+}
